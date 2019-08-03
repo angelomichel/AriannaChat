@@ -1,0 +1,6 @@
+## Interface: 80200
+## Title: AriannaChat
+## Author: angelomichel
+## Version: 0.1
+
+AriannaChat.lua
