@@ -1,10 +1,15 @@
 ARIEMOTES = {}
 
-ARIEMOTES[":ariannaDerp"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaDerp:20:20:0:0:128:64:0:24:0:18\124t"
-ARIEMOTES[":ariannaHug"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHug:20:20:0:0:128:64:0:24:0:18\124t"
-ARIEMOTES[":ariannaLove"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaLove:20:20:0:0:128:64:0:24:0:18\124t"
+ARIEMOTES[":ariannaBless"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaBless:20:20:0:0:20:20:0:24:0:24\124t"
+ARIEMOTES[":ariannaDerp"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaDerp:20:20:0:0:20:20:0:24:0:24\124t"
+ARIEMOTES[":ariannaFail"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaFail:20:20:0:0:20:20:0:24:0:24\124t"
+ARIEMOTES[":ariannaHug"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHug:20:20:0:0:20:20:0:24:0:24\124t"
+ARIEMOTES[":ariannaHype"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHype:20:20:0:0:20:20:0:24:0:24\124t"
+ARIEMOTES[":ariannaInnocent"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaInnocent:20:20:0:0:20:20:0:24:0:24\124t"
+ARIEMOTES[":ariannaLove"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaLove:20:20:0:0:20:20:0:24:0:24\124t"
+ARIEMOTES[":ariannaLUL"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaLUL:20:20:0:0:20:20:0:24:0:24\124t"
 
-function replaceEmotes(message, t, emote)
+function replaceAriannaEmotes(message, t, emote)
     local tp = t
     if emote then
         tp = string.sub(t, 1, 1).."%"..string.sub(t, 2, 2)
@@ -22,7 +27,7 @@ function onChatMessage(self, event, message, ...)
     for t in string.gmatch(message, "%S+") do
         if ARIEMOTES[t] then
             local possibleEmote = string.sub(t, 2, 2) == ")" or string.sub(t, 2, 2) == "(" -- handle robot face emotes (this solution is borrowed from TwitchEmotes addon)
-            message = replaceEmotes(message, t, possibleEmote)
+            message = replaceAriannaEmotes(message, t, possibleEmote)
         end
     end
     return false, message, ...
