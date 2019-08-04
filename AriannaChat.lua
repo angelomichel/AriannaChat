@@ -1,13 +1,13 @@
 ARIEMOTES = {}
 
-ARIEMOTES[":ariannaBless"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaBless:20:20:0:0:20:20:0:24:0:24\124t"
-ARIEMOTES[":ariannaDerp"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaDerp:20:20:0:0:20:20:0:24:0:24\124t"
-ARIEMOTES[":ariannaFail"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaFail:20:20:0:0:20:20:0:24:0:24\124t"
-ARIEMOTES[":ariannaHug"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHug:20:20:0:0:20:20:0:24:0:24\124t"
-ARIEMOTES[":ariannaHype"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHype:20:20:0:0:20:20:0:24:0:24\124t"
-ARIEMOTES[":ariannaInnocent"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaInnocent:20:20:0:0:20:20:0:24:0:24\124t"
-ARIEMOTES[":ariannaLove"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaLove:20:20:0:0:20:20:0:24:0:24\124t"
-ARIEMOTES[":ariannaLUL"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaLUL:20:20:0:0:20:20:0:24:0:24\124t"
+ARIEMOTES[":ariannaBless"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaBless:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaDerp"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaDerp:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaFail"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaFail:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaHug"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHug:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaHype"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHype:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaInnocent"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaInnocent:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaLove"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaLove:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaLUL"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaLUL:20:20:0:0:20:20:0:20:0:20\124t"
 
 function replaceAriannaEmotes(message, t, emote)
     local tp = t
