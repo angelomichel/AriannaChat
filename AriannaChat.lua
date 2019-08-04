@@ -1,8 +1,12 @@
 ARIEMOTES = {}
 
+ARIEMOTES[":ariannaAwe"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaAwe:20:20:0:0:20:20:0:20:0:20\124t"
 ARIEMOTES[":ariannaBless"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaBless:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaCry"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaCry:20:20:0:0:20:20:0:20:0:20\124t"
 ARIEMOTES[":ariannaDerp"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaDerp:20:20:0:0:20:20:0:20:0:20\124t"
 ARIEMOTES[":ariannaFail"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaFail:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaHeart"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHeart:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaHey"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHey:20:20:0:0:20:20:0:20:0:20\124t"
 ARIEMOTES[":ariannaHug"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHug:20:20:0:0:20:20:0:20:0:20\124t"
 ARIEMOTES[":ariannaHype"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHype:20:20:0:0:20:20:0:20:0:20\124t"
 ARIEMOTES[":ariannaInnocent"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaInnocent:20:20:0:0:20:20:0:20:0:20\124t"
