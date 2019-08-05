@@ -12,6 +12,9 @@ ARIEMOTES[":ariannaHype"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaHyp
 ARIEMOTES[":ariannaInnocent"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaInnocent:20:20:0:0:20:20:0:20:0:20\124t"
 ARIEMOTES[":ariannaLove"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaLove:20:20:0:0:20:20:0:20:0:20\124t"
 ARIEMOTES[":ariannaLUL"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaLUL:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaMonkaS"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaMonkaS:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaPog"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaPog:20:20:0:0:20:20:0:20:0:20\124t"
+ARIEMOTES[":ariannaRip"] = "\124TInterface/AddOns/AriannaChat/emotes/ariannaRip:20:20:0:0:20:20:0:20:0:20\124t"
 
 function replaceAriannaEmotes(message, t, emote)
     local tp = t
