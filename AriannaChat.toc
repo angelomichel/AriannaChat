@@ -1,6 +1,6 @@
-## Interface: 80200
+## Interface: 80300
 ## Title: AriannaChat
 ## Author: angelomichel
-## Version: 0.4
+## Version: 0.5
 
 AriannaChat.lua
