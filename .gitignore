@@ -41,3 +41,4 @@ luac.out
 
 # visual studio history plugin
 .history
+.DS_Store
